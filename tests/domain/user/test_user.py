@@ -13,14 +13,20 @@ class UserMyTestCase(unittest.TestCase):
         # assertion
         self.assertEqual(username, actual_username)
 
-    @unittest.skip("TODO: Homework")
     def test_it_sets_empty_list_if_we_do_not_specify_stocks(self):
-        pass
+        user = User("random-username")
+
+        actual_stocks = user.stocks
+
+        self.assertEqual([], actual_stocks)
 
     @unittest.skip("TODO: Homework")
     def test_it_sets_the_stocks_we_give(self):
-        # set a list of 3 strings
-        pass
+        user = User("random_username", ["firstuser", "seconduser"])
+
+        actual_stocks = user.stocks
+
+        self.assertEqual(["firstuser", "seconduser"], actual_stocks)
 
 
 if __name__ == "__main__":
