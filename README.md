@@ -2,6 +2,7 @@
 
 Final project for ItSchool course, Python - Intro To Programming.
 
+
 For Windows, steps to deploy:
 ```
 git clone <git_repo_url>
