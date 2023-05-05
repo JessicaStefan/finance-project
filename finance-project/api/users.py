@@ -1,11 +1,9 @@
-from fastapi import APIRouter, Depends
-
-from domain.asset.factory import AssetFactory
-from domain.asset.repo import AssetRepo
-from domain.user.repo import UserRepo
-from domain.user.factory import UserFactory
 from api.models import UserAdd, UserInfo, AssetInfoUser, AssetAdd
-from persistence.user_file import UserPersistenceFile
+from domain.asset.asset import AssetFactory
+from domain.asset.repo import AssetRepo
+from domain.user.factory import UserFactory
+from domain.user.repo import UserRepo
+from fastapi import APIRouter, Depends
 from persistence.user_sqlite import UserPersistenceSqlite
 
 users_router = APIRouter(prefix="/users")
