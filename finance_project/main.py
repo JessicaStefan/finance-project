@@ -4,9 +4,9 @@ from fastapi_utils.tasks import repeat_every
 import subprocess
 import os
 import time
-from api.users import users_router
-from api.assets import assets_router
-from domain.user.factory import InvalidUsername
+from finance_project.api.users import users_router
+from finance_project.api.assets import assets_router
+from finance_project.domain.user.factory import InvalidUsername
 from starlette.responses import JSONResponse
 
 logging.basicConfig(

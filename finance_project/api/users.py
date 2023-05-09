@@ -1,10 +1,10 @@
-from api.models import UserAdd, UserInfo, AssetInfoUser, AssetAdd
-from domain.asset.asset import AssetFactory
-from domain.asset.repo import AssetRepo
-from domain.user.factory import UserFactory
-from domain.user.repo import UserRepo
+from finance_project.api.models import UserAdd, UserInfo, AssetInfoUser, AssetAdd
+from finance_project.domain.asset.factory import AssetFactory
+from finance_project.domain.asset.repo import AssetRepo
+from finance_project.domain.user.factory import UserFactory
+from finance_project.domain.user.repo import UserRepo
 from fastapi import APIRouter, Depends
-from persistence.user_sqlite import UserPersistenceSqlite
+from finance_project.persistence.user_sqlite import UserPersistenceSqlite
 
 users_router = APIRouter(prefix="/users")
 

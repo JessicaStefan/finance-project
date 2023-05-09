@@ -1,7 +1,7 @@
 import sqlite3
-from domain.user.persistance_interface import UserPersistenceInterface
-from domain.user.user import User
-from domain.user.factory import UserFactory
+from finance_project.domain.user.persistance_interface import UserPersistenceInterface
+from finance_project.domain.user.user import User
+from finance_project.domain.user.factory import UserFactory
 
 
 class UserPersistenceSqlite(UserPersistenceInterface):

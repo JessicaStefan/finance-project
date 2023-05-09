@@ -1,10 +1,10 @@
 import json
 import uuid
 from singleton import singleton
-from domain.asset.repo import AssetRepo
-from domain.user.factory import UserFactory
-from domain.user.persistance_interface import UserPersistenceInterface
-from domain.user.user import User
+from finance_project.domain.asset.repo import AssetRepo
+from finance_project.domain.user.factory import UserFactory
+from finance_project.domain.user.persistance_interface import UserPersistenceInterface
+from finance_project.domain.user.user import User
 
 
 @singleton

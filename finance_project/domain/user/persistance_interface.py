@@ -1,6 +1,6 @@
 import abc
 
-from domain.user.user import User
+from finance_project.domain.user.user import User
 
 
 class UserPersistenceInterface(abc.ABC):

@@ -1,6 +1,6 @@
 from uuid import UUID
 
-from domain.asset.asset import Asset
+from finance_project.domain.asset.asset import Asset
 
 
 class User:

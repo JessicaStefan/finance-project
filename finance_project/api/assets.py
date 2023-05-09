@@ -2,8 +2,8 @@ from fastapi import APIRouter
 import yfinance
 import uuid
 from matplotlib import pyplot
-from api.models import AssetInfoPrice
-from domain.asset.factory import AssetFactory
+from finance_project.api.models import AssetInfoPrice
+from finance_project.domain.asset.factory import AssetFactory
 
 assets_router = APIRouter(prefix="/assets")
 

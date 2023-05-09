@@ -1,6 +1,6 @@
 import sqlite3
-from domain.asset.asset import Asset
-from domain.user.user import User
+from finance_project.domain.asset.asset import Asset
+from finance_project.domain.user.user import User
 
 # Refactor this class
 # extract the sqlite code from here to the persistence layer

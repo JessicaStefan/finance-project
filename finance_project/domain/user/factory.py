@@ -1,5 +1,5 @@
 import uuid
-from domain.user.user import User
+from finance_project.domain.user.user import User
 
 
 class InvalidUsername(Exception):
