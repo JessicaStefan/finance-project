@@ -2,6 +2,8 @@
 
 Final project for ItSchool course, Python - Intro To Programming.
 
+This project is a web server that allows u to keep track of your different financial assets.
+
 
 For Windows, steps to deploy:
 ```
