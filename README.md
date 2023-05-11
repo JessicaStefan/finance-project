@@ -2,7 +2,8 @@
 
 Final project for ItSchool course, Python - Intro To Programming.
 
-This project is a web server that allows u to keep track of your different financial assets.
+This project is a webserver with a REST API for keeping track of your different financial assets, stocks & crypto, 
+and see/compare their evolution.
 
 
 For Windows, steps to deploy:
